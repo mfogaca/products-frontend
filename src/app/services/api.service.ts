@@ -10,7 +10,7 @@ const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
 const apiUrl = "https://localhost:44315/api/Products";
-const loginUrl = "https://dev.sitemercado.com.br/api/login";
+const loginUrl = "https://identityserver";
 
 @Injectable({
   providedIn: 'root'
